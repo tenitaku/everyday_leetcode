@@ -1,2 +1,3 @@
 # everyday_leetcode
 Leetcode毎日解こう
+Projectにエビングハウスの忘却曲線使ったtodoListあり
