@@ -29,6 +29,7 @@ aからzまで、登場回数を数え、count[c]++していく
 tuple(count)を使用する。
 理由として、dictionaryのkeyはhashableでなくてはならないからである。（hashableとは変更ができないこと）
 listは変更可能なので、かわりにtupleを使用する。
+.values()で辞書のvalue一覧を、.keys()で辞書のkey一覧を取得することができる。
 """
 
 sol = Solution()
