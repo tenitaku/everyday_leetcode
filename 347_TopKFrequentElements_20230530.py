@@ -17,12 +17,15 @@ class Solution:
         
         count = {} # num : count
         freq = [[] for i in range(len(nums) + 1)]
+        print(freq)
 
         for num in nums:
             count[num] = 1 + count.get(num, 0)
 
         for key, val in count.items():
             freq[val].append(key)
+        
+        print(freq)
 
         ans = []
         for i in range(len(freq) - 1, 0, -1):
