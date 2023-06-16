@@ -6,6 +6,13 @@ if s = "[(])"....false
 
 time : O(n)
 space : O(n)
+
+think order
+//what data structure we use ?
+//how is the time and space?
+//think edge case?
+//test cases..
+//run...
 """
 
 class Solution:
